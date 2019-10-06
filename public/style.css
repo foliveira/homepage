@@ -2,13 +2,27 @@ body {
   font-family: 'Tenor Sans', sans-serif;
   margin: auto;
   max-width: 1280px;
+  background-color: #AA8356;
 }
 
-.title {
-  height: 400px;
-  width: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+.content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+a.social {
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+.social img {
+    width: 24px;
+    filter: invert(1);
 }
