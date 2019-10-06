@@ -17,9 +17,16 @@ h1 {
     font-size: xx-large;
 }
 
+.networks {
+    position: fixed;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: #ffffff;
+}
+
 a.social {
     text-decoration: none;
-    padding-left: 25px;
 }
 
 .social img {
