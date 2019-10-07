@@ -1,22 +1,25 @@
 :root {
     color-scheme: light dark;
+    --bg-color: white;
+    --fg-color: black;
 }
 
 body {
   font-family: 'Tenor Sans', sans-serif;
   margin: auto;
   max-width: 1280px;
-  background-color: #AA8356;
   
-  position: fixed;
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  
   top: 50%;
   left: 50%;
+  position: fixed;
   transform: translate(-50%, -50%);
 }
 
-h1 {
+.title {
     font-size: xx-large;
-    color: #ffffff;
     white-space: nowrap;
 }
 
@@ -31,11 +34,11 @@ a.social {
 .social img {
     padding: 0 8px;
     width: 18px;
-    filter: invert(1);
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: black;
+    :root {
+        --fg-color: white;
+        --bg-color: black;
     }
 }
