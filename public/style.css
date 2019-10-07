@@ -33,7 +33,7 @@ a.social {
 
 .social img {
     padding: 0 8px;
-    width: 18px;
+    width: 24px;
 }
 
 @media (prefers-color-scheme: dark) {
