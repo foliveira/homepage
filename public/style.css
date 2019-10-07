@@ -11,7 +11,6 @@ body {
   color: #ffffff;
 }
 
-
 h1 {
     font-size: xx-large;
 }
@@ -20,8 +19,12 @@ a.social {
     text-decoration: none;
 }
 
+.networks {
+    text-align: center;
+}
+
 .social img {
-    padding-right: 16px;
+    padding-right: 0 8px;
     width: 18px;
     filter: invert(1);
 }
