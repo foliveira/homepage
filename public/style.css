@@ -41,4 +41,8 @@ a.social {
         --fg-color: white;
         --bg-color: black;
     }
+
+    .social img {
+        filter: invert(1);
+    }
 }
