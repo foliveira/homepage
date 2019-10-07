@@ -24,7 +24,7 @@ a.social {
 }
 
 .social img {
-    padding-right: 0 8px;
+    padding: 0 8px;
     width: 18px;
     filter: invert(1);
 }
