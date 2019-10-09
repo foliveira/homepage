@@ -1,6 +1,6 @@
 :root {
     color-scheme: light dark;
-    --bg-color: white;
+    --bg-color: rgb(250,250,250);
     --fg-color: black;
 }
 
@@ -33,16 +33,20 @@ a.social {
 
 .social img {
     padding: 0 8px;
-    width: 24px;
+    width: 18px;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --fg-color: white;
+        --fg-color: rgb(250,250,250);
         --bg-color: black;
     }
 
-    .social img {
-        filter: invert(1);
+    img[src*=".svg"] {
+        filter: invert(100%);
+    }
+
+    img[src*=".svg"]:hover {
+        filter: invert(60%);
     }
 }
