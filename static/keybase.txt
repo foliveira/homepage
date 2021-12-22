@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/foliveira
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://fabio.isthe.name
+  * I am foliveira (https://keybase.io/foliveira) on keybase.
+  * I have a public key ASBbI2hZPvdyXzVtseBYst7xKvYntmlgdoW1zqMdLPnXXgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01012feffd7d2b798233974e1f3eabc1940b8a74c5d99a896e5c4dff4796673e46350a",
+      "host": "keybase.io",
+      "kid": "01205b2368593ef7725f356db1e058b2def12af627b669607685b5cea31d2cf9d75e0a",
+      "uid": "2658bf1a77acca856a2266280597c200",
+      "username": "foliveira"
+    },
+    "merkle_root": {
+      "ctime": 1640188477,
+      "hash": "ded0edca534e216ab509b952682f8ca9c3f34d9279492d63aec5b63fbc12cce1ed8606888201838c0e14a97b383f7520ec0dbd32aa1691c62d880f6d628944ab",
+      "hash_meta": "4eb0f0311c7f8870fc1bdf886e6afdfd7be8c9d3ebf43f6c7ca814edd75b0b59",
+      "seqno": 21486602
+    },
+    "service": {
+      "entropy": "BmqpuiFzuqf1weMfEBk1ELBl",
+      "hostname": "fabio.isthe.name",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1640188492,
+  "expire_in": 504576000,
+  "prev": "c922cc3038ff51eb84688fe4abf587d8163a6a82160058189a859d1bae0e7419",
+  "seqno": 105,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWyNoWT73cl81bbHgWLLe8Sr2J7ZpYHaFtc6jHSz5114Kp3BheWxvYWTESpcCacQgySLMMDj/UeuEaI/kq/WH2BY6aoIWAFgYmoWdG64OdBnEIDTpYHOk9z9q/j6IhNFroXHTPEo0uTeuH102fn029yt/AgHCo3NpZ8RAlhvDHid/a60S0kuVt3L8F/7vYHe5Rnt5ggvrD1rBYPRTNBwlS7rxOpmq1/9bDpCfBwca64oEIf/CadF9oYcaA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMaGtabXCmKKcwEMafCPsma4rO2uKvGXhW8iMPd+fgDFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/foliveira
+
+==================================================================
