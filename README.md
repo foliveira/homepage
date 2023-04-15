@@ -1,7 +1,7 @@
 # 🚧 🌐 My Homepage
 
 [![Vercel Status](https://img.shields.io/github/deployments/fanoliveira/homepage/production?label=vercel&logo=vercel)](https://vercel.com/dashboard)
-[![GitHub license](https://img.shields.io/github/license/fanoliveira/homepage)](https://github.com/fanoliveira/homepage/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/foliveira/homepage)](https://github.com/foliveira/homepage/blob/main/LICENSE)
 
 👋 Welcome to my personal homepage! This website is built using Next.js and hosted on Vercel. It serves as an introduction to who I am, what I do, and what I'm passionate about.
 
