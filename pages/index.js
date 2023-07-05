@@ -22,7 +22,7 @@ export default function Index() {
             <Social url="https://twitter.com/fanoliveira">
               <FaTwitter size="32px"/>
             </Social>
-            <Social url="https://mastodon.social/@foliveira">
+            <Social rel="me" url="https://mastodon.social/@foliveira">
               <FaMastodon size="32px"/>
             </Social>
             <Social url="https://github.com/foliveira">
