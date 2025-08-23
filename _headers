@@ -1,0 +1,11 @@
+/ira/index.html
+  Cache-Control: no-store
+
+/ira/
+  Cache-Control: no-store
+
+/ira/*.html
+  Cache-Control: no-store
+
+/ira/favicon/*
+  Cache-Control: public, max-age=31536000, immutable

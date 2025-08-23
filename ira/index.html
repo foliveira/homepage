@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, viewport-fit=cover"
+        />
+        <meta name="color-scheme" content="light dark" />
+        <title>Fábio Oliveira</title>
+        <meta
+            name="description"
+            content="Fábio Oliveira's own corner on the internet."
+        />
+        <link rel="canonical" href="https://fabioo.live/ira/" />
+
+        <!-- Favicons (relative paths so this works under /ira) -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="favicon/apple-touch-icon.png"
+        />
+        <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon/favicon-16x16.png"
+        />
+        <link
+            rel="mask-icon"
+            href="favicon/safari-pinned-tab.svg"
+            color="#0e62f6"
+        />
+        <link rel="shortcut icon" href="favicon/favicon.ico" />
+        <link rel="manifest" href="favicon/site.webmanifest" />
+        <meta name="msapplication-config" content="favicon/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#000000" />
+        <meta name="theme-color" content="#0b0b0c" />
+
+        <!-- Open Graph / Twitter -->
+        <meta property="og:title" content="Fábio Oliveira" />
+        <meta
+            property="og:description"
+            content="Fábio Oliveira's own corner on the internet."
+        />
+        <meta property="og:url" content="https://fabioo.live/ira/" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+
+        <!-- Mastodon verification -->
+        <link rel="me" href="https://mastodon.social/@foliveira" />
+
+        <style>
+            :root {
+                --bg: #f6f7f8;
+                --fg: #0b0b0c;
+                --muted: #5e626a;
+                --accent: #0e62f6;
+                --accent-weak: rgba(14, 98, 246, 0.06);
+                --card: #ffffffcc;
+                --border: #e6e7ea;
+            }
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bg: #0b0b0c;
+                    --fg: #e9eaec;
+                    --muted: #a0a6af;
+                    --accent: #76a7ff;
+                    --accent-weak: rgba(118, 167, 255, 0.08);
+                    --card: #111215cc;
+                    --border: #1e2026;
+                }
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+            html,
+            body {
+                height: 100%;
+            }
+
+            body {
+                margin: 0;
+                background: radial-gradient(
+                        1200px 800px at 50% -20%,
+                        var(--accent-weak),
+                        transparent 70%
+                    )
+                    var(--bg);
+                color: var(--fg);
+                font-family:
+                    ui-sans-serif,
+                    system-ui,
+                    -apple-system,
+                    Segoe UI,
+                    Roboto,
+                    Helvetica,
+                    Arial,
+                    "Apple Color Emoji",
+                    "Segoe UI Emoji",
+                    "Noto Color Emoji";
+                line-height: 1.5;
+                min-height: 100vh;
+                display: grid;
+                place-items: center;
+            }
+
+            main {
+                width: 100%;
+                max-width: 760px;
+                padding: 24px;
+            }
+
+            .card {
+                border: 1px solid var(--border);
+                background: var(--card);
+                -webkit-backdrop-filter: saturate(140%) blur(8px);
+                backdrop-filter: saturate(140%) blur(8px);
+                border-radius: 16px;
+                padding: clamp(24px, 4vw, 48px);
+                box-shadow:
+                    0 1px 2px rgba(0, 0, 0, 0.04),
+                    0 6px 24px rgba(0, 0, 0, 0.06);
+            }
+
+            h1 {
+                margin: 0 0 12px;
+                font-weight: 800;
+                letter-spacing: -0.02em;
+                font-size: clamp(36px, 7vw, 64px);
+                line-height: 1.1;
+            }
+
+            p.lead {
+                margin: 0 0 24px;
+                color: var(--muted);
+                font-size: clamp(16px, 2.5vw, 18px);
+            }
+
+            nav {
+                margin-top: 8px;
+            }
+
+            ul.links {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 12px 18px;
+                padding: 0;
+                margin: 0;
+                list-style: none;
+            }
+
+            .links a {
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                color: var(--fg);
+                text-decoration: none;
+                border: 1px solid var(--border);
+                padding: 10px 14px;
+                border-radius: 999px;
+                transition:
+                    border-color 0.2s ease,
+                    color 0.2s ease,
+                    background 0.2s ease,
+                    transform 0.06s ease;
+                background: transparent;
+            }
+            .links a:hover {
+                color: var(--accent);
+                border-color: var(--accent);
+                background: var(--accent-weak);
+                transform: translateY(-1px);
+            }
+            .links a:focus-visible {
+                outline: 2px solid var(--accent);
+                outline-offset: 2px;
+            }
+
+            .links a img {
+                display: block;
+                width: 18px;
+                height: 18px;
+            }
+
+            footer {
+                margin-top: 20px;
+                color: var(--muted);
+                font-size: 14px;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                .links a {
+                    transition: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section class="card" aria-labelledby="name">
+                <header>
+                    <h1 id="name">Fábio Oliveira</h1>
+                    <p class="lead">Links to where I’m active.</p>
+                </header>
+
+                <nav aria-label="Links">
+                    <ul class="links">
+                        <li>
+                            <a
+                                href="https://twitter.com/fanoliveira"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                ><img
+                                    src="https://cdn.simpleicons.org/twitter/1DA1F2"
+                                    alt=""
+                                    width="18"
+                                    height="18"
+                                />Twitter</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://mastodon.social/@foliveira"
+                                rel="me"
+                                ><img
+                                    src="https://cdn.simpleicons.org/mastodon/6364FF"
+                                    alt=""
+                                    width="18"
+                                    height="18"
+                                />Mastodon</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/foliveira"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                ><img
+                                    src="https://cdn.simpleicons.org/github/181717"
+                                    alt=""
+                                    width="18"
+                                    height="18"
+                                />GitHub</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/fanoliveira/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                ><img
+                                    src="https://cdn.simpleicons.org/linkedin/0A66C2"
+                                    alt=""
+                                    width="18"
+                                    height="18"
+                                />LinkedIn</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://blog.fabioo.live/ira"
+                                ><img
+                                    src="https://cdn.simpleicons.org/rss/FFA500"
+                                    alt=""
+                                    width="18"
+                                    height="18"
+                                />Blog</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+
+                <footer>
+                    <small
+                        >Made with simple HTML + CSS. Hosted on Cloudflare
+                        Pages.</small
+                    >
+                </footer>
+            </section>
+        </main>
+
+        <!-- Cloudflare Web Analytics -->
+        <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon='{"token":"f46cc27c2e6c4affba164d05a41199b7"}'
+        ></script>
+    </body>
+</html>

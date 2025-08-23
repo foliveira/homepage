@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="F monogram favicon">
+  <title>Fábio Oliveira — F monogram</title>
+  <desc>Rounded-square badge with gradient background and a clean, legible F monogram designed for small sizes.</desc>
+
+  <defs>
+    <!-- Accent-to-dark gradient to match site theme -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e62f6"/>
+      <stop offset="100%" stop-color="#0b0b0c"/>
+    </linearGradient>
+
+    <!-- Subtle inner shadow for depth on high-DPI without blurring the glyph -->
+    <filter id="inner" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+      <feOffset dy="0.6" in="SourceAlpha" result="off"/>
+      <feGaussianBlur stdDeviation="0.6" in="off" result="blur"/>
+      <feComposite in="blur" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="innerShadow"/>
+      <feColorMatrix in="innerShadow" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.35 0" />
+      <feComposite in="SourceGraphic" in2="innerShadow" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Badge background with rounded corners -->
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="url(#bg)" filter="url(#inner)"/>
+
+  <!-- White keyline for crisp separation on dark UIs -->
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+
+  <!-- Stylized F: thick rounded strokes for clarity at 16–32px -->
+  <g stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Vertical stem -->
+    <path d="M22 18 L22 46"/>
+    <!-- Top arm -->
+    <path d="M22 18 L44 18"/>
+    <!-- Middle arm -->
+    <path d="M22 32 L38 32"/>
+  </g>
+</svg>
