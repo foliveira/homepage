@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="F monogram (mask)">
+  <!-- Safari pinned tab icon: black shapes on transparent background are used as a mask -->
+  <g fill="#000000">
+    <!-- Vertical stem -->
+    <rect x="18" y="12" width="8" height="40" rx="4"/>
+    <!-- Top arm -->
+    <rect x="22" y="12" width="24" height="8" rx="4"/>
+    <!-- Middle arm -->
+    <rect x="22" y="28" width="18" height="8" rx="4"/>
+  </g>
+</svg>
